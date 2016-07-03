@@ -1,0 +1,9 @@
+function min(one, two) {
+	return (one <= two) ? one : two;
+}
+//test
+{
+console.log(min(50, 51));
+console.log(min(19, 12));
+console.log(min(10.5, 10));
+}
